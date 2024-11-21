@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e2325;
+    color: #78aee4;
+    padding: 5px;
+    background-image: url("https://img.freepik.com/premium-vector/twitter-logo-new-logo-twitter-twitter-x-antalya-turkey-july-24-2023-new-twitter-logo-new-twitter_958128-129.jpg?semt=ais_hybrid");
+    height: 1500px;
+    background-attachment: fixed;
+}
+
+.twet{
+    max-width: 600px;
+    margin: auto;
+    background:rgb(216, 206, 206);
+    padding: 20px;
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: url("https://img.freepik.com/free-vector/new-2023-twitter-logo-x-icon-design_1017-45418.jpg?semt=ais_hybrid");
+    height: 500px;
+}
+
+h1 {
+    text-align:left;
+    
+}
+
+textarea {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 10px;
+    border: 1px solid #121416;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color:rgb(255, 255, 255);
+    border: none;
+    border-radius: 2px;
+    color: rgb(14, 165, 224);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:rgb(16, 199, 255);
+}
+
+.tweet {
+    border-bottom: 1px solid #e1e8ed;
+    padding: 10px 0;
+}
+
+.tweet:last-child {
+    border-bottom: none;
+}
+
+.tweet-content {
+    margin-bottom: 10px;
+}
+
+.like-button {
+    background: none;
+    border: none;
+    color:rgb(231, 243, 225);
+    cursor: pointer;
+}
+
+.like-button:hover {
+    text-decoration: underline rgb(1, 49, 25);
+}
+footer{
+    text-align: center;
+    background-color: gray;
+    padding-bottom: 10px;
+    margin-top: 100px;
+    background: fixed;
+}
